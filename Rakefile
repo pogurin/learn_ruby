@@ -11,3 +11,4 @@ RSpec::Core::RakeTask.new do |task|
   task.rspec_opts = [ "-I#{lab}", "-I#{lab}/solution", '-f documentation', '-r ./rspec_config']
   task.verbose = false
 end
+ 
